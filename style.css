@@ -1,12 +1,11 @@
 body {
+    background: #111;
+    color: white;
+    font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background: #111;
-    color: #fff;
-    height: 100vh;
-    margin: 0;
+    padding-top: 15px;
 }
 
 h1 {
@@ -14,6 +13,11 @@ h1 {
 }
 
 canvas {
-    background: #000;
-    border: 2px solid #fff;
+    background: black;
+    border: 2px solid white;
+}
+
+.controls {
+    margin-top: 10px;
+    color: #ccc;
 }
